@@ -1,0 +1,535 @@
+/*.container-fluid{
+	border-top: solid 17px #009933;
+}
+header{
+	border-bottom: solid 1px #009933;
+}*/
+/*Navbar*/
+#header nav{
+	border: none;
+	background: none;
+	/*padding-top: 0;
+	padding-bottom: 0;
+	text-transform: uppercase;
+	text-align: center;*/
+	/*box-shadow: 0px 2px 2px rgba(0,0,0,0.1);*/
+}
+.navbar-brand{
+	height: 100px;
+	padding: 0px;
+}
+/*.w3-content{
+	max-width: 980px;
+}*/
+.navbar-btn {
+    margin-top: 33px;
+    margin-bottom: 8px;
+}
+.navbar-right {
+    float: right!important;
+    margin-right: 0;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 12px;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 10px;
+    margin-left: 0px;
+}
+.w3-content {
+    max-width: 1300px;
+    margin: auto;
+}
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid .jumbotron {
+    /*padding-right: 15px;
+    padding-left: 15px;*/
+    border-radius: 0;
+}
+
+/*.navbar-default{
+	border: none;
+	background: none;
+}
+.navbar{
+	border-radius: 0;
+	margin: 0;
+}
+.navbar-brand{
+	height: 0;
+}*/
+/*Call to action*/
+#calltoaction .jumbotron{
+	/*padding-top: 150px;
+	padding-bottom: 150px;
+	padding-left: 0;
+	padding-right: 0;*/
+	padding: 100px 0;
+	text-align: center;
+	background: aliceblue url('image/bg.jpg') center no-repeat;
+	background-size: cover;
+	margin-bottom: 0;
+}
+#calltoaction .jumbotron h1, #calltoaction .jumbotron p {
+    color: #0A713A;
+    /*text-shadow: 0px 10px 9px rgba(0,0,0,0.3);*/
+}
+#calltoaction .jumbotron h1,
+#calltoaction .jumbotron p{
+	color: #0A713A;
+	text-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+}
+#calltoaction .jumbotron .btn-feature{
+	color: #0A713A;
+	border: 1px solid #009933;
+}
+#calltoaction .jumbotron .btn-feature:hover{
+	color: #00F20D;
+}
+
+/*feature1*/
+#feature1{
+	background: #ECF0F1;
+	color: #003366;
+	text-align: center;
+	padding: 20px 0;
+}
+#feature1 .glyphicon{
+	font-size: 60px;
+}
+
+
+<style>
+* {margin:0 auto; padding: 0;}
+		ul {list-style-type: none;}
+/*moi*/
+.hienthi {
+	display: block;
+}
+
+body * {
+	text-shadow: none;
+}
+.container_menu {
+	width: 980px;
+	margin: 0 auto;
+}
+.ddsmoothmenu {
+	width: 100%;
+	height: 40px;
+	position: relative;
+	z-index: 999;
+	/* background: #EBB956; */
+	background-color: #0A713A;
+}
+
+body * {
+	text-shadow: none;
+}
+
+div {
+	display: block;
+}
+
+.ddsmoothmenu ul {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 9999;
+	list-style-type: none;
+	min-height: 40px;
+}
+.ddsmoothmenu ul li {
+    position: relative;
+    display: inline;
+    float: left;
+    line-height: 40px;
+    border-right: solid 1px #064825;
+}
+.ddsmoothmenu ul li a {
+    color: #f5f5f5;
+    display: block;
+    text-decoration: none;
+    padding: 0 1.2rem;
+    outline: none;
+    text-align: center;
+    font-size: 0.8vw;
+    background: url(../images/ke.jpg) no-repeat right center;
+    text-transform: uppercase;
+}
+
+body * {
+	text-shadow: none;
+}
+
+ul, li {
+	list-style: none;
+}
+
+ul, li, p {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul, menu, dir {
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+</style>
+
+/*<style>
+		* {margin:0 auto; padding: 0;}
+		ul {list-style-type: none;}
+		.menu a {
+			text-decoration: none;
+			color: #c2d6d6;
+
+		}
+		.menu ul {
+			
+			position: absolute; 
+			top: 42px; 
+			left: 0;
+			display: none;	
+		}
+		.menu li {
+			float: left; 
+			width: 180px; 
+			line-height: 1.2em; 
+			position: relative; 
+			text-align: center; 
+			background: #0A713A; 
+			padding: 10px;
+		}
+		.menu li:hover{
+			background: green;
+			cursor: pointer;
+		}
+		.menu ul ul{
+			left: 150px;
+			top: 0px;
+		}
+		/*ul li{ list-style-type: none;}
+            a{ text-decoration: none;}
+            ul a{ display: block; width: 125px; background: white; border-bottom: 1px solid #ccc;  padding-left: 25px; line-height: 30px; color: white;}
+            ul li .submenu{ display: none;}
+            ul li.selected .submenu{ display: block;}
+            .submenu ul{ margin: 0px; padding: 0px;}
+            .submenu ul a{ background: blue;}
+            .submenu ul a:hover{ background: #0A713A;}
+	</style>*/
+
+
+.left1, .right1{
+	display: none;
+}
+@media ( min-width:70em) { 
+	.left1{
+		left:0;
+		height: 480px;
+		width: 9.7%;
+    	overflow: hidden;
+		position:absolute;
+					top: 521px;
+				display: block;
+		z-index: 9;
+	}
+	.right1{
+    	float: right;
+		right:0;
+		height: 480px;
+		width: 9.7%;
+    	overflow: hidden;
+		position:absolute;
+					top: 521px;
+				display: block;
+		z-index: 9;
+	}
+}
+.container_gioithieu {
+	margin: auto;
+    width: 1050px;
+}
+.title {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(/images/icon.png) no-repeat left center;
+    background-size: 40px 40px;
+    border-bottom: solid 3px #ccc;
+    font-family: "Roboto-Condensed";
+    text-transform: uppercase;
+    color: #0A713A;
+    line-height: 44px;
+    font-weight: 100;
+    font-size: 1.4em;
+    text-align: left;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.js .animate-box {
+    opacity: 0;
+}
+.fadeInUp {
+    /*-webkit-animation-name: fadeInUp;*/
+    animation-name: fadeInUp;
+}
+.animated {
+    /*-webkit-animation-duration: 1s;*/
+    animation-duration: 1s;
+  /*  -webkit-animation-fill-mode: both;*/
+    animation-fill-mode: both;
+}
+.gioithieu_pk {
+
+	margin-top: 2em;
+    width: 50%;
+    float: left;
+    background: #0A713A;
+    color: #fff;
+    border-radius: 4px;
+}
+
+
+.js .animate-box {
+    opacity: 0;
+}
+.fadeInUp {
+    /*-webkit-animation-name: fadeInUp;*/
+    animation-name: fadeInUp;
+}
+.animated {
+    /*-webkit-animation-duration: 1s;*/
+    animation-duration: 1s;
+    /*-webkit-animation-fill-mode: both;*/
+    animation-fill-mode: both;
+}
+.hospital {
+    width: 445px;
+    height: 312px;
+    background: url(/images/hospital.png) no-repeat center center;
+    background-size: 100% auto;
+    position: absolute;
+    right: 0;
+    z-index: 3;
+    bottom: 5px;
+}
+
+/*menu_bot*/
+#menu-bot {
+    height: 35px;
+    border-top: solid 3px #ECCF2F;
+    background: url(/images/bg-footer.png) repeat center top;
+}
+.container_menu {
+    width: 980px;
+    margin: 0 auto;
+}
+body * {
+    text-shadow: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+ul, li, p {
+    /*list-style: none;*/
+    margin: 0;
+    padding: 0;
+}
+
+#menu-bot ul li {
+    float: left;
+    line-height: 35px;
+    padding: 0px 15px 0px 15px;
+    font-weight: bold;
+}
+
+
+ul, menu, dir {
+    display: block;
+   /* list-style-type: disc;*/
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+/*Ưu Thế pk*/
+
+div.info2 {
+    padding: 0px;
+    font-family: "arial";
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: #fff;
+    width: 100%;
+    float: left;
+    background: #0A713A;
+}
+.clear5 {
+    clear: both;
+    font-size: 0;
+    width: 100%;
+    height: 30px;
+}
+.content_index2 {
+    /*background-color: #0A713A;*/
+    min-height: 190px;
+}
+
+.content_index2 .pd {
+    padding: 20px;
+}
+
+body * {
+    text-shadow: none;
+}
+
+div {
+    display: block;
+}
+
+element.style {
+    background: url(images/9362_Uu-the-cua-phong-kham.jpg) no-repeat center center;
+}
+.js .animate-box {
+    opacity: 0;
+}
+
+.clear1 {
+    clear: both;
+    font-size: 0;
+    width: 100%;
+    height: 3px;
+}
+
+div.img_list2 {
+    display: block;
+    width: 30%;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin: 0px 10px 0px 0px;
+    text-align: center;
+    float: left;
+}
+
+/*Gioi Thieu Cong Nghe*/
+element.style {
+    font-size: 0,3em;
+    text-align: justify;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    line-height: 1.5em;
+    font-size: 0.8em;
+}
+
+.clear3 {
+    clear: both;
+    font-size: 0;
+    width: 100%;
+    height: 20px;
+}
+.tin_index1 {
+    float: left;
+    width: 50%;
+    background-color: #EEEEEE;
+    margin-bottom: 1.5em;
+}
+.tin_index1 .title_new, .tin_index2 .title_new {
+    text-align: center;
+    padding: 0.5em 0em;
+    font-family: 'sans-serif';
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: #3F779E;
+}
+.tin_index1 .ttin, .tin_index2 .ttin {
+    padding: 1em;
+}
+element.style {
+    background: url(images/3675_Untitled-1.jpg) no-repeat center center;
+    background-size: auto 100%;
+}
+.img_list {
+    float: left;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin: 0px 15px 10px 0px;
+    text-align: center;
+    background-size: 100% auto;
+    border: solid 2px #fff;
+}
+
+/*Gioi thieu cong nghe phải*/
+
+element.style {
+    background: url(images/2886_unnamed.jpg) no-repeat center center;
+    background-size: auto 100%;
+}
+
+.tin_index2 {
+    float: right;
+    width: 49%;
+    background-color: #EEEEEE;
+    margin-bottom: 1.5em;
+}
+
+.img_list {
+    float: left;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin: 0px 15px 10px 0px;
+    text-align: center;
+    background-size: 100% auto;
+    border: solid 2px #fff;
+}
+
+/*html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+}*/
